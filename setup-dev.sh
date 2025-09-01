@@ -71,3 +71,5 @@ vim +PlugInstall +qall
 echo "========== Setup Complete =========="
 echo "Restart your terminal to see Oh My Posh atomic theme."
 echo "Open Vim to see atomic theme via vim-airline."
+echo "已安裝完畢，如果有顯示錯誤問題，請使用 FiraCode Nerd Font Mono"
+echo "感謝你的使用"
