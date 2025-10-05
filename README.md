@@ -24,7 +24,7 @@ cd Dev-Environment-Setup
   
 - Windows   
   ```
-  ./setup-dev-for-Linux.sh
+  .\setup-dev-for-Windows.ps1
   ```
 
 **預設樣式是** `atumic` **如果需要更改樣式請上** `oh-my-posh.com` **尋找樣式**
