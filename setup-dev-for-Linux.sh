@@ -53,6 +53,10 @@ call plug#end()
 let g:airline_theme='atomic'
 let g:airline_powerline_fonts = 1
 
+set number
+set relativenumber
+set cursorline
+
 " 狀態列欄位（必須在 plug#end() 後面）
 if exists('*airline#section#create')
   let g:airline_section_a = airline#section#create(['mode'])
