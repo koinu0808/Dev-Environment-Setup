@@ -27,7 +27,7 @@ cd Dev-Environment-Setup
   .\setup-dev-for-Windows.ps1
   ```
 
-**預設樣式是** `atumic` **如果需要更改樣式請上** `oh-my-posh.com` **尋找樣式**
+**預設樣式是** `probua.minimal` **如果需要更改樣式請上** `oh-my-posh.com` **尋找樣式**
 
 ## 更改樣式方式
 - Linux
@@ -38,7 +38,7 @@ cd Dev-Environment-Setup
   
 - Windows  
   ```
-  vim $PROFILE` or `notepade $PROFILE
+  vim $PROFILE` or `notepad $PROFILE
   ```
   將 `oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\<style>"| Invoke-Expression` 裡面 `<style>` 更改為自己喜歡的樣式，格式為 `<name>.omp.json`
   
