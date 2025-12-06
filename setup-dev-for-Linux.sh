@@ -23,12 +23,12 @@ oh-my-posh --version
 # ------------------- 3. Install atomic theme -------------------
 echo "Installing atomic theme for Oh My Posh..."
 mkdir -p ~/.poshthemes
-curl -L https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/atomic.omp.json \
-    -o ~/.poshthemes/atomic.omp.json
+curl -L https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/probua.minimal.omp.json \
+    -o ~/.poshthemes/probua.minimal.omp.json
 
 # Add theme initialization to bashrc
-grep -qxF 'eval "$(oh-my-posh init bash --config ~/.poshthemes/atomic.omp.json)"' ~/.bashrc || \
-    echo 'eval "$(oh-my-posh init bash --config ~/.poshthemes/atomic.omp.json)"' >> ~/.bashrc
+grep -qxF 'eval "$(oh-my-posh init bash --config ~/.poshthemes/probua.minimal.omp.json)"' ~/.bashrc || \
+    echo 'eval "$(oh-my-posh init bash --config ~/.poshthemes/probua.minimal.omp.json)"' >> ~/.bashrc
 
 source ~/.bashrc
 
@@ -50,7 +50,7 @@ call plug#end()
 " --- vim-plug 結束 ---
 
 " Airline 設定
-let g:airline_theme='atomic'
+let g:airline_theme='dark_minimal'
 let g:airline_powerline_fonts = 1
 
 set number

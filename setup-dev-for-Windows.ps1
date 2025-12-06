@@ -24,8 +24,8 @@ if (-not (Test-Path $themeDir)) {
     New-Item -ItemType Directory -Path $themeDir | Out-Null
 }
 
-$themeFile = "$themeDir\atomic.omp.json"
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/atomic.omp.json" `
+$themeFile = "$themeDir\probua.minimal.omp.json"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/probua.minimal.omp.json" `
     -OutFile $themeFile
 
 # ------------------- 5. Configure PowerShell profile -------------------
